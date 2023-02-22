@@ -274,19 +274,36 @@ h6 {
 @media (min-width: 1024px) {
   #hero {
     background-attachment: fixed;
+    /* height: 32vh; */
   }
 }
 
 @media (max-width: 768px) {
+  #hero {
+    height: 30vh;
+  }
+  #hero::before {
+    bottom: -46px;
+  }
   #hero h1 {
-    font-size: 28px;
+    /* font-size: 28px;
+    line-height: 36px; */
+    font-size: 19px;
     line-height: 36px;
+    margin-left: 97px;
+    margin-top: 80px;
   }
 
   #hero h2 {
     font-size: 18px;
     line-height: 24px;
     margin-bottom: 30px;
+  }
+  #hero p {
+    margin-bottom: 57px;
+    font-size: 15px;
+    font-family: "Poppins", sans-serif;
+    margin-left: 6rem;
   }
 }
 
