@@ -1,4 +1,4 @@
-/**
+/* /**
 * Template Name: iPortfolio - v3.9.1
 * Template URL: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/
 * Author: BootstrapMade.com
@@ -1184,44 +1184,37 @@ section {
   top: -17rem;
   font-weight: 500;
 }
-
+/* ============================= */
 .video-area {
-  padding: 200px 0 60px 0;
+  padding: 400px 0 60px 0;
   position: relative;
-  background: url(../img/video-bg.jpg) no-repeat center center/cover;
-  .overlay-bg {
-    @extend .p1-gradient-bg;
-    opacity: 0.6;
-  }
-  .video-content {
-    text-align: center;
-    position: relative;
-    z-index: 2;
-    a {
-      display: inline-block;
-      margin-bottom: 20px;
-    }
-    h3 {
-      font-weight: 600;
-      font-size: 18px;
-      margin-bottom: 10px;
-      letter-spacing: 2px;
-    }
-    h4 {
-      font-weight: 300;
-      font-size: 14px;
-    }
-    .video-desc {
-      margin-top: 120px;
-      text-align: right;
-      align-self: flex-end;
-    }
-  }
+  height: auto;
+  background: url(/assets/img/Green.png) no-repeat center center/cover !important;
+  background-image: linear-gradient(#59d440, #241e62);
 }
-.overlay {
+
+.video-content > h3 {
+  font-weight: 900;
+  font-size: 18px;
+  margin-bottom: 10px;
+  letter-spacing: 2px;
+}
+.video-content > h4 {
+  font-weight: 600;
+  font-size: 14px;
+}
+.video-content > a {
+  display: inline-block;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.video-desc {
+  margin-top: 120px;
+  text-align: center;
+  align-self: flex-end;
+}
+.video-content {
+  text-align: center;
   position: relative;
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
+  z-index: 2;
 }
